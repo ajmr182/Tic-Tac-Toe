@@ -1,0 +1,45 @@
+
+body{
+    align-content: center;
+}
+
+input{
+
+padding: 5px;
+margin-top: 5px;
+background-color: white;
+width: 30px;
+border: none;
+cursor:pointer;
+
+}
+
+#fila1{
+    width: fit-content;
+    
+    border-bottom: 2px solid black;
+}
+
+#fila2{
+    width: fit-content;
+    border-bottom: 2px solid black;
+}
+
+#fila3{
+    width: fit-content;
+    
+}
+
+.col1{
+    border-right: 2px solid black;
+}
+
+.col2{
+    border-right: 2px solid black;
+}
+
+#reset{
+    background-color: lightgrey;
+    border: 2px solid black;
+    width: fit-content;
+}
