@@ -9,22 +9,29 @@
     <title>Tic Tac Toe</title>
 </head>
 <body>
-    <div id=fila1>
+    <div id ="container" >
+    <h1>Tic Tac Toe</h1>
+    <div id = "juego">
+    <div id="fila1">
     <input id = "1" class="col1" type="button" value="" onclick="escribir1()" >
     <input id = "2" class="col2" type="button" value="" onclick="escribir2()">
     <input id = "3" class="col3" type="button" value="" onclick="escribir3()">
 </div>
-    <div id=fila2>
+    <div id="fila2">
     <input id = "4" class="col1" type="button" value="" onclick="escribir4()">
     <input id = "5" class="col2" type="button" value="" onclick="escribir5()">
     <input id = "6" class="col3" type="button" value="" onclick="escribir6()">
 </div>
-    <div id=fila3>
+    <div id="fila3">
     <input id = "7" class="col1" type="button" value="" onclick="escribir7()">
     <input id = "8" class="col2" type="button" value="" onclick="escribir8()">   
     <input id = "9" class="col3" type="button" value="" onclick="escribir9()">
 </div>
-
+</div>
+<h2 id=player>Juega X</h2>
+<h2 id="X"> Jugador X =  </h2>
+<h2 id="O"> Jugador O =  </h2>
+</div>
 <input id= "reset" type="button" value="reset" onclick="reset()">
 
     <script src="app.js"></script>
